@@ -1,0 +1,57 @@
+.list {
+  background-color: #f8f8ff;
+  background-size: cover;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+}
+
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  background-color: transparent;
+  color: gold;
+  margin-right: 4px;
+}
+
+.st {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.forks {
+  background-color: transparent;
+  color: #0284c7;
+  margin-right: 4px;
+}
+
+.issues {
+  background-color: #e73959;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 4px;
+}
