@@ -1,6 +1,3 @@
-import {FaStar} from 'react-icons/fa6'
-import {PiGitForkThin, PiInfoThin} from 'react-icons/pi'
-
 import './index.css'
 
 const RepositoryItem = props => {
@@ -12,17 +9,31 @@ const RepositoryItem = props => {
       <img src={avatarUrl} alt={name} className="img" />
       <h1 className="name">{name}</h1>
       <div className="s">
-        <FaStar className="star" />
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/stars-count-img.png"
+          alt="stars"
+          className="stars"
+        />
         <p className="st">{starsCount} stars</p>
       </div>
 
       <div className="s">
-        <PiGitForkThin className="forks" />
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/forks-count-img.png"
+          alt="forks"
+          className="stars"
+        />
+
         <p className="st">{forksCount} forks</p>
       </div>
 
       <div className="s">
-        <PiInfoThin className="issues" />
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/issues-count-img.png"
+          alt="open issues"
+          className="stars"
+        />
+
         <p className="st">{issuesCount} issues</p>
       </div>
     </li>
