@@ -31,9 +31,8 @@
   align-items: center;
 }
 
-.star {
-  background-color: transparent;
-  color: gold;
+.stars {
+  height: 20px;
   margin-right: 4px;
 }
 
@@ -41,17 +40,4 @@
   color: #1e293b;
   font-family: 'Roboto';
   font-size: 12px;
-}
-
-.forks {
-  background-color: transparent;
-  color: #0284c7;
-  margin-right: 4px;
-}
-
-.issues {
-  background-color: #e73959;
-  color: #ffffff;
-  border-radius: 5px;
-  margin-right: 4px;
 }
